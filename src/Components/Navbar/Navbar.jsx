@@ -19,6 +19,8 @@ import {
   faHospitalSymbol,
 } from "@fortawesome/fontawesome-free-solid";
 import { NavLink } from "react-router-dom";
+import { Nav } from "./Nav";
+import Carasoule from "../Carasoule";
 // import { faLocationArrow, faStar,faDownload, faSquare, faPenSquare, faHospitalSymbol , faMap } from "@fortawesome/fontawesome-free-regular";
 
 const links = [
@@ -78,41 +80,12 @@ const Navbar = () => {
               <Text>Loyalty</Text>
             </Center>
           </Flex>
-          <Box bg={"white"} h="100px">
-            <Flex justifyContent="space-between">
-              <Center>
-                <Text>Search Bar</Text>
-              </Center>
-              <Center>
-                <Text fontSize={"60px"} h="10px">
-                  SEPHORA
-                </Text>
-              </Center>
-              <Flex>
-                <Text>Heart</Text>
-                <Text>Cart</Text>
-                <Text>Login</Text>
-              </Flex>
-            </Flex>
-          </Box>
+          
         </Box>
-        <Box fontSize={"20px"}>
-        <Flex justifyContent="space-evenly">
-        {links.map((link) => (
-        <NavLink
-          className={({ isActive }) =>
-            isActive ? styles.active : styles.default
-          }
-          key={link.path}
-          to={link.path}
-        >
-          {link.title}
-        </NavLink>
-        ))}
-
-        </Flex>
-        </Box>
+        
       </SimpleGrid>
+      <Nav/>
+      <Carasoule/>
     </>
   );
 };

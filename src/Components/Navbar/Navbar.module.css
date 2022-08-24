@@ -2,21 +2,27 @@
     color: black;
     text-decoration: none;
     padding: 1rem;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 16px;
     letter-spacing: 1.6px;
+    font-weight: 620;
+   
   }
   .default {
     color: black;
     text-decoration: none;
-    font-size:20px;
+    font-size:18px;
     line-height: 16px;
     padding: 1rem;
     letter-spacing: 1.6px;
+    font-weight: 620;
+
   }
   .default:hover{
     color:#FF3399;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .active:hover{
     color:#FF3399;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }

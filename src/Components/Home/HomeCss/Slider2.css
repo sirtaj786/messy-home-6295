@@ -1,0 +1,104 @@
+.tag1{
+    font-size: 12px;
+    
+    font-family:   sans-serif;
+    font-weight: bold;
+    
+    color: #000;
+    
+  }
+  .tag1>p{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+   
+    align-items: center;
+    justify-items: center;
+    font-size: 12px;
+    margin: auto;
+  }
+  .mainDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+
+  }
+  .videoImage{
+    background-image: url("https://logan.nnnow.com/content/dam/nnnow-project/14-april-2022/se/Givenchy_Video_SS.jpg");
+    width: 45%; 
+    
+    background-size: contain;
+    display: flex;
+    align-items: center;
+ 
+    
+    
+   
+    
+    
+  }
+  .videoImage>img{
+    margin:auto;
+  }
+  .videoPlay{
+    display: none;
+  }
+ .videoPlaynothide{
+   display: block;
+ }
+ #Scrollup {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  position: absolute; 
+ left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 700ms;
+  background-color: #7df9ff;
+}
+#Scrollup>button{
+  width: 50%;
+  background-color: #40E0D0;
+  border: 0px;
+}
+#image1 {
+  
+  left: 0;
+  opacity: 1;
+  
+}
+#image2 {
+  
+  left: 0;
+  opacity: 1;
+  display: none;
+ 
+}
+#shadow{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 40px;
+  border-style: none;
+}
+#SixDiv {
+ 
+  display: grid;
+  width: 83%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 1px solid green; */
+  grid-row-gap: 4%;
+  /* grid-column-gap: 0.5%; */ 
+}
+.lastDiv
+{
+  display: grid;
+  width: 83%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 1px solid green; */
+  grid-row-gap: 4%;
+}
+#lastText{
+  float: left;
+}

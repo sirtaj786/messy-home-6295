@@ -1,0 +1,12 @@
+.react-multiple-carousel__arrow {    
+    background-color: pink;
+    opacity: 0.5;
+    font-weight: 900;
+  
+    
+    
+  }
+  .react-multiple-carousel__arrow:hover{
+   background-color: magenta;
+    
+  }

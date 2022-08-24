@@ -1,0 +1,208 @@
+.NavbarContainer-2{
+   
+}
+.Navbar-11{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 3px solid rgb(0, 0, 0); */
+}
+.Navbar-11 >div{
+    width: 15%;
+    height: 60px;
+    /* border: 2px solid rgb(128, 0, 34); */
+}
+
+.Navbar-11 input{
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    border: 0px solid transparent;
+   
+    outline: 0;
+    color: #2c2b2b;
+    /* height: 30px */
+
+}
+.Navbar-12{
+    border: 0px solid transparent;
+    border-bottom-width: 1px;
+    width: 60%;
+    border-bottom-color: rgb(44, 43, 43);
+display: flex;
+}
+ .Searchlogo{
+   color: rgb(200, 70, 133);
+   margin-top: 30px;
+   }
+
+    .Navbar-15{
+        font-size: 35px;
+        letter-spacing: 8px;
+        font-weight: 500;
+    }
+    .Navbar-17{
+        margin-top: 20px;
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    .Navbar-17 li:nth-child(2){
+        color: rgb(129, 125, 125);
+    }
+    .Navbar-17 li:nth-child(4){
+        color: rgb(129, 125, 125);
+    }
+    .Navbar-17 li:nth-child(1){
+        color: rgb(237, 40, 135);
+       
+    }
+    .Navbar-17 li:nth-child(3){
+        color: rgb(237, 40, 135);
+    }
+    .Navbar-17 li:nth-child(5){
+        color: rgb(237, 40, 135);
+    }
+    .Navbar-17 p{
+        color: black;
+    }
+    /* ////////////////// */
+    .line{
+        width: 90%;
+        margin: auto;
+        margin-top: 2%;
+        height: 1px;
+        background-color: #d1cfcf;
+    }
+    .line:hover{
+        width: 90%;
+        margin: auto;
+        margin-top: 2%;
+        height: 1.5px;
+        background-color: #d1cfcf;
+    }
+    .header--left > ul{
+        justify-content: space-evenly;
+        display: flex;
+    margin-top: 22px;
+        list-style: none;
+        gap:20px;
+    }
+*{
+    text-decoration: none !important;
+}
+
+    .hover{
+        /* border: 1px solid #ccc; */
+        margin: 18px 2px;
+        padding:15px 20px;
+        padding-right:10px;
+        padding-bottom:20px;
+        width: 97%;
+        line-height: 20px;
+        position: absolute;
+        left: 0;
+        z-index:1;
+        display: none;
+        background: #fff;
+        list-style: none;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px
+    }
+    
+    
+    .hover--navbar li{
+        font-size:13px ;
+        color: #d81d1d;
+ 
+    }
+    
+    .hover--navbar li a:hover{
+        text-decoration: none;
+
+        color: rgb(237, 40, 135);
+    }
+    .hover--navbar{
+        
+      margin-left: 100px;
+      margin-right: 40px;
+    }
+    .first{
+        font-size:15px;
+        font-weight: 1000;
+        margin-top: 5px;
+       color: black;
+    }
+    .hover h4{
+        font-size: 14px;
+    }
+    
+    .accessories_hover.hover , .about_hover.hover{
+        padding-bottom: 0;
+    }
+    .hover--navbar{
+        display: flex;
+        gap:30px;
+        
+    }
+    
+    
+    
+    .hover--navbar ul{
+        list-style: none;
+        line-height:20px;
+        text-align: left;
+        font-family:Theory-web-ul;
+    }
+    
+    .nav-hover:hover .hover{
+        display: block;
+    }
+    
+   
+    
+    
+    .hover--navbar ul li a{
+       
+        cursor: pointer;
+        color: black;
+    }
+    
+    .heading1{
+        font-size: 15.5px;
+        font-weight: 700;
+        margin-top: 10px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        padding:12px  10px 18px 10px ;
+        letter-spacing: 1.5px;
+        color: rgb(11, 11, 11);
+        
+       
+    }
+    .heading1:hover{
+        color:rgb(237, 40, 135) ;
+    }
+    
+    .heading{
+        font-size: 15.5px;
+        font-weight: 700;
+        margin-top: 10px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        padding:8px  10px 18px 10px ;
+        letter-spacing: 1.5px;
+        color: rgb(11, 11, 11);
+       
+    }
+.heading:hover{
+    text-decoration: none;
+    
+    color: rgb(237, 40, 135); 
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#adjustment1{
+    display: flex;
+    align-items: center;
+}

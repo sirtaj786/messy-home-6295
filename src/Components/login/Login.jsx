@@ -70,7 +70,7 @@ export const Login = () => {
     <form onSubmit={handleSubmit} style={{ display: "inline-block" }}>
           <br />
 
-          <input
+          <input className="em"
             type="email"
             name="email"  
             value={emailer}         
@@ -85,7 +85,8 @@ export const Login = () => {
             style={{
               backgroundColor: "rgb(255,51,153)",
               border: "none",
-              width: "90%",
+              width: "100%",
+              height:'3rem'
             }}
             color="primary"
             variant="contained"
@@ -100,8 +101,9 @@ export const Login = () => {
         </form>
         <p>-------- OR --------</p>
         <br></br>
-        <p style={{ backgroundColor: "rgb(66,133,244)",margin:"auto", width:"80%", }}
-><GoogleLogin 
+        <p style={{ backgroundColor: "rgb(66,133,244)",margin:"auto", width:"77.5%", }}
+>
+  <GoogleLogin 
                   
           clientId="783084545362-nbv5flob7ak19200jqvmr33fb3og95ri.apps.googleusercontent.com"
           buttonText="Login with Google"
@@ -120,6 +122,7 @@ export const Login = () => {
           expectcssClass="facebook-button"
           icon="fa-facebook"
           textButton="Login with Facebook"
+          height="100px"
           style={{ backgroundColor: "rgb(25,118,210)" }}
         />
         <p>By proceeding, you agree to Privacy Policy, <span style={{ color: "rgb(255,51,153)" }} >Terms & Conditions</span></p>

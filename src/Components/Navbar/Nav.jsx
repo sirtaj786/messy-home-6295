@@ -37,13 +37,13 @@ export const Nav = () => {
                 <FiHeart />
               </li>
               <li>|</li>
-              <Link to={`/checkoutpage`}>
+              <Link to="/checkoutpage">
                 <li>
                   <HiOutlineShoppingBag />
                 </li>
               </Link>
               <li>|</li>
-              <Link to={`/login`}>
+              <Link to="/login">
                 <span id="adjustment1">
                   <li>
                     <RiContactsLine />
@@ -68,7 +68,7 @@ export const Nav = () => {
               </Link>
             </li>
             <li className="nav-hover">
-              <Link to="" className="heading">
+              <Link to="/mackupproduct" className="heading">
                 MAKEUP
               </Link>
               <div className="hover ">

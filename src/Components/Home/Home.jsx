@@ -1,4 +1,5 @@
 import React from 'react'
+import Carasoule from '../Carasoule'
 import { Footer } from '../Footer/Footer'
 import Navbar from '../Navbar/Navbar'
 import  './HomeCss/Slider.css'
@@ -50,7 +51,8 @@ const ImagesUrl3 = [
 
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
+    <Carasoule/>
 <Slider1></Slider1>
  <Slider2></Slider2>
     <div style={{textAlign:"Center"}}>

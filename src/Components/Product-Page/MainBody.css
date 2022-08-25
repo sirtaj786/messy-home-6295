@@ -1,0 +1,160 @@
+#MainContainer {
+    display: flex;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 100px;
+    height: 3800px;
+  }
+  #leftNavigation {
+    width: 20%;
+    margin-top: -50px;
+    font-family: "Avenir Next";
+  }
+  #productpagecart {
+    width: 78%;
+    display: grid;
+    margin-left: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 0.5%;
+    grid-column-gap: 0.5%;
+  }
+  #productpagecart:hover{
+    cursor: pointer;
+  }
+  #productimg1 {
+    width: 100%;
+    left: 0;
+    opacity: 1;
+  }
+  #productimg2 {
+    width: 100%;
+    left: 0;
+    opacity: 1;
+    display: none;
+  }
+  #imgDiv {
+    width: 100%;
+    position: relative;
+  }
+  #Scrollup_Button {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 700ms;
+    background-color: #7df9ff;
+  }
+  #Scrollup_Button > button {
+    width: 50%;
+    background-color: #40e0d0;
+    border: 0px;
+  }
+  #textDiv {
+    width: 100%;
+    margin-top: 10px;
+    line-height: 0.4;
+  }
+  #textDiv > p {
+    font-family: "Avenir Next";
+    color: black;
+    text-decoration: none;
+    margin-top: 5%;
+  }
+  #textDiv > p:nth-child(odd) {
+    font-weight: 600;
+    margin-top: 5%;
+  }
+  #Scrollup_Button > button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Avenir Next";
+  
+    font-weight: 550;
+  }
+  #symbollcss {
+    font-size: 26px;
+    color: white;
+    line-height: 0.9;
+  }
+  #textCSS {
+    font-size: 13px;
+    color: white;
+    line-height: 1.9;
+  }
+  #sortdiv {
+    display: flex;
+    width: 94%;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    font-family: "Avenir Next";
+  }
+  #sortdiv > p {
+    margin: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  #itemsorter {
+    width: 220px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: none;
+    color: grey;
+  }
+  #checkboxcss {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+  }
+  #ckeckboxdiv {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+  
+  #ckeckboxdiv > span {
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 0.01cm;
+  }
+  #btn > button {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: left;
+  }
+  #btn > button > span {
+    width: 70px;
+    display: inline-block;
+    color: grey;
+  }
+  #btn > button > b {
+    margin-left: 100px;
+  }
+  
+  .navcat {
+    font-size: 14px;
+  }
+  .navfilter {
+    font-size: 14px;
+    margin: 13px;
+    font-weight: bolder;
+  }
+  #s1 {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: left;
+    color: gray;
+  }

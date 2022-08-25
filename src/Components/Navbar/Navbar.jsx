@@ -85,7 +85,7 @@ const Navbar = () => {
         
       </SimpleGrid>
       <Nav/>
-      <Carasoule/>
+      {/* <Carasoule/> */}
     </>
   );
 };

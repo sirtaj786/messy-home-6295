@@ -1,0 +1,249 @@
+#maindiv {
+    display: flex;
+  }
+  #miandivsubdiv1 {
+    width: 75%;
+    /* border:1px solid red; */
+    /* height: 400px; */
+    display: flex;
+  }
+  
+  #car1 {
+    width: 30%;
+    /* border:1px solid red; */
+    align-items: center;
+  }
+  #car1 > p {
+    width: 50px;
+    font-size: 50px;
+    /* border:1px solid red; */
+    color: rgb(255, 51, 153);
+    margin: 0px auto;
+    align-items: center;
+  }
+  #car1 > div > img {
+    width: 100%;
+    /* border:1px solid red; */
+    align-items: center;
+    margin: 0px auto;
+  }
+  #car1 > div {
+    align-items: center;
+    width: 44%;
+    margin: auto;
+    padding: 10px;
+  }
+  #car2 {
+    /* border:1px solid red; */
+    width: 60%;
+    padding: 60px;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  #car2:hover {
+    cursor: pointer;
+    /* -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: 0.9s ease-in-out;
+    transition: 0.9s ease-in-out; */
+  }
+  #maindivbtn1:hover {
+    cursor: pointer;
+  }
+  
+  #miandivsubdiv2 {
+    width: 35%;
+    /* border:1px solid red; */
+    height: 1000px;
+    text-align: left;
+  }
+  #pddiv1 {
+    font-weight: lighter;
+    font-size: smaller;
+    letter-spacing: 0.02cm;
+    margin: 8px;
+  }
+  #pdspan {
+    color: rgb(255, 154, 170);
+  }
+  #miandivsubdiv2p1 {
+    font-weight: bolder;
+    /* border:1px solid red; */
+    margin: 4px;
+  }
+  #miandivsubdiv2p2 {
+    /* color:rgb(255,154,170);  */
+    font-weight: 400;
+    /* border:1px solid red; */
+    margin: 4px;
+  }
+  #miandivsubdiv2p3 {
+    color: grey;
+    /* border:1px solid red; */
+    margin: 4px;
+  }
+  #miandivsubdiv2p3 > span {
+    color: orange;
+    font-size: large;
+  }
+  #miandivsubdiv2b {
+    margin-left: 4px;
+    font-weight: bolder;
+  }
+  #miandivsubdiv2p4 {
+    margin-left: 4px;
+    font-weight: bolder;
+    font-size: small;
+  }
+  #miandivsubdiv2p5 {
+    margin-left: 4px;
+    font-size: small;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+  }
+  #miandiver1 {
+    margin: 4px;
+  
+    display: flex;
+    border: 2px solid orange;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  #miandiver2 {
+    width: 12%;
+    font-size: 40px;
+    color: orange;
+    /* border:1px solid red; */
+  }
+  #miandiver3 {
+    width: 85%;
+    /* border:1px solid red; */
+  }
+  #miandiver3 > #z {
+    font-weight: bolder;
+  }
+  #miandiver3 > p {
+    margin: 5px;
+    font-weight: lighter;
+    font-size: 14px;
+  }
+  #miandivsubdiv2p6 {
+    margin: 4px;
+    font-weight: bolder;
+    font-size: small;
+  }
+  #miandivsubdiv2p6 > span {
+    font-weight: lighter;
+    color: grey;
+  }
+  #maindivbtn1 {
+    margin: 4px;
+  
+    margin-top: 20px;
+    padding: 15px 130px;
+    background-color: rgb(255, 51, 153);
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border: 0px;
+  }
+  #miandiver4 {
+    margin: 4px;
+  
+    display: flex;
+    /* border:1px solid red; */
+    justify-content: center;
+  }
+  #miandiver5 {
+    margin: 4px;
+  
+    /* border:1px solid red; */
+    text-align: center;
+    width: 60px;
+    margin-top: 10px;
+  }
+  #miandiver5 > #zqp1 {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 51, 153);
+    color: rgb(255, 51, 153);
+    padding: 10px;
+  }
+  #miandiver5 > #zqp3 {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid rgb(43, 162, 228);
+    color: rgb(43, 162, 228);
+    padding: 10px;
+  }
+  #miandiver5 > #zqp2 {
+    font-weight: bolder;
+    font-size: 10px;
+    margin: 3px;
+  }
+  
+  #miandiver6 {
+    display: flex;
+  
+    /* border:1px solid red; */
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  #miandiver7 {
+    /* border:1px solid red; */
+    /* padding:15px; */
+    width: 18%;
+  }
+  #miandiver8 {
+    /* border:1px solid red; */
+    /* padding:15px; */
+  }
+  #iqoop1 {
+    margin: 0px;
+    font-weight: bolder;
+    font-size: 14px;
+  }
+  #iqoop2 {
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 14px;
+  }
+  #iqooa1 {
+    margin: 4px;
+    font-weight: bolder;
+    font-size: 14px;
+  }
+  #iqooa2 {
+    margin: 4px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  #laster {
+    /* border:1px solid red; */
+    margin: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #laster > button {
+    border: 2px solid grey;
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 40px;
+    color: grey;
+  }
+  #laster > input {
+    border: 0px;
+    background-color: whitesmoke;
+    outline: none;
+  }

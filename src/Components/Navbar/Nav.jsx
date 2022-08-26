@@ -37,22 +37,22 @@ export const Nav = () => {
                 <FiHeart />
               </li>
               <li>|</li>
-              <Link to="/checkoutpage">
                 <li>
+              <Link to="/checkoutpage">
                   <HiOutlineShoppingBag />
-                </li>
               </Link>
+                </li>
               <li>|</li>
               <Link to="/login">
                 <span id="adjustment1">
                   <li>
                     <RiContactsLine />
                   </li>
-                  <li style={{marginLeft:"5px"}}>{z == null ? "Login" : ""}</li>
+                  <li style={{marginLeft:"5px"}}>{z === null ? "Login" : " "}</li>
                 </span>
               </Link>
-              <div>{z == null ? "" : z} </div>
-              {/* <div>{z==null ? "":<button onClick={handleName}>Logout</button>}</div> */}
+              <div>{z === null ? "" :z } </div>
+              <div>{z===null ? "":<button onClick={handleName}>Logout</button>}</div>
             </div>
             
           </div>
@@ -61,7 +61,7 @@ export const Nav = () => {
       <div className="NavbarContainer-2">
         <div className="header--left">
           <ul>
-            <li classNLinkme="nLinkv-hover ">
+            <li className="nLinkv-hover ">
               {" "}
               <Link className="heading1" to="">
                 SALE
@@ -73,7 +73,7 @@ export const Nav = () => {
               </Link>
               <div className="hover ">
                 <div className="hover--navbar">
-                  <div>
+                  {/* <div>
                     <ul>
                       <li className="first">
                         <Link to="">FACE</Link>
@@ -100,12 +100,12 @@ export const Nav = () => {
                         <Link to="">Face Brushes</Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   <div>
                     {/* <h5>	EYE</h5> */}
                     <ul>
                       <li className="first">
-                        <Link to="">EYE</Link>
+                        <Link to="/mackupproduct">EYE</Link>
                       </li>
                       <li>
                         <Link to="">Eye Palettes</Link>
@@ -136,7 +136,7 @@ export const Nav = () => {
                   <div>
                     {/* <h5>LIP</h5> */}
                     <ul>
-                      <Link to={`/mackupproduct`}>
+                      <Link to="/mackupproduct">
                         <li className="first">
                           <Link to="">LIP</Link>
                         </li>
@@ -213,9 +213,9 @@ export const Nav = () => {
               </Link>
               <div className="hover ">
                 <div className="hover--navbar">
-                  <div>
+                  {/* <div> */}
                     {/* <h5>FACE</h5> */}
-                    <ul>
+                    {/* <ul>
                       <li className="first">
                         <Link to="">FACE</Link>
                       </li>
@@ -241,7 +241,7 @@ export const Nav = () => {
                         <Link to="">Face Brushes</Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   <div>
                     <ul>
                       <li className="first">
@@ -394,7 +394,7 @@ export const Nav = () => {
                   <div>
                     {/* <h5>SHAMPOO & CONDITIONER</h5> */}
                     <ul>
-                      <Link to={`/hairproduct`}>
+                      <Link to="/hairproduct">
                         <li className="first">
                           <Link to="">SHAMPOO & CONDITIONER </Link>
                         </li>

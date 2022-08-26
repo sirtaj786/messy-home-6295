@@ -21,6 +21,7 @@ export const CheckoutPage = ()=>{
             </div>
             {/* updated */}
             {currState === "shipping"? <Shipping setCurrState={setCurrState}/> : <Payment/>}
+            hiiiii
         </div>
         </>
     

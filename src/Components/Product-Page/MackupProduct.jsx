@@ -204,7 +204,7 @@ export const MackupProduct = () => {
 
                 <ProductCard Product={product}>
                   <div id="imgDiv">
-                  <Link to={`/productdetail`}>
+                  <Link to="/productdetail">
                     <img src={e.image_url} id="productimg1" />
                     <img src={e.image2_url} id="productimg2" />
                     </Link>
@@ -244,7 +244,7 @@ export const MackupProduct = () => {
                       </button>
                     </div>
                   </div>
-                  <Link to={`/productdetail`} style={{textDecoration: "none"}}>
+                  <Link to="/productdetail" style={{textDecoration: "none"}}>
                   <div id="textDiv">
                     <p>{e.brandname}</p>
                     <p>{e.productName}</p>

@@ -13,6 +13,8 @@ import { MackupProduct } from './Components/Product-Page/MackupProduct';
 import { HairProduct } from './Components/Product-Page/HairProduct';
 import { CheckoutPage } from './Components/checkout/CheckoutPage';
 import { Payment } from './Components/paymentDet/PaymentPage';
+import { ProductDetails } from './Components/Product-Detail.jsx/ProductDetails';
+import { OTP } from './Components/login/Otp';
 
 function App() {
   return (
@@ -26,12 +28,12 @@ function App() {
      <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/login" element={<Login />}/>
-        {/* <Route path="/otp" element={<OTP />}></Route> */}
-        <Route path="/signup" element={<Signup />}/>
+        {/* <Route path="/otp" element={<OTP />}></Route>
+        <Route path="/signup" element={<Signup />}/> */}
 
         <Route path="/hairproduct" element={<HairProduct />}/>
         <Route path="/mackupproduct" element={<MackupProduct />}/>
-        {/* <Route path="/productdetail" element={<ProductDetails />}></Route> */}
+        <Route path="/productdetail" element={<ProductDetails />}></Route>
         <Route path="/checkoutpage" element={<CheckoutPage />}/>
         <Route path="/home" element={<Home />}/>
         <Route path="/payment" element={<Payment />}/>

@@ -198,7 +198,7 @@ export const MackupProduct = () => {
                 onClick={() => {
                   let arr=[]
                   arr.push(e)
-                  localStorage.setItem("hemant", JSON.stringify(arr));
+                  localStorage.setItem("srk", JSON.stringify(arr));
                 }}
               >
 

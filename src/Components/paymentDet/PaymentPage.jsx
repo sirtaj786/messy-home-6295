@@ -50,13 +50,12 @@ export const Payment = () => {
     else setShowForm(true);
   }, []);
 
-  // handle for pay on delivery;
+ 
     const z = JSON.parse(localStorage.getItem("sephoraAddress"))||[];
     useEffect(()=>{
      setLength(z)
     },[z,length])
 
-  //handle for alert
   const handleAlert = () => {
    
     const cartItems = JSON.parse(localStorage.getItem("srk"))||[]

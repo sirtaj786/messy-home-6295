@@ -3,7 +3,7 @@ import { ProductCard } from "../../StyledComponents/ProductCard";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { MdFavoriteBorder } from "react-icons/md";
 import "./MainBody.css";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 // import { Header } from "../Header/Header";
 // import { Navbar } from "../Navbar/Navbar";
 // import { Footer } from "../Footer/Footer";
@@ -12,6 +12,7 @@ export const HairProduct = () => {
   const [product, setproduct] = useState([]);
   const [brandfilter, setBrandFilter] = useState("ALL");
   const [priceRane, setPriceRange] = useState("0-10000");
+  const[searchParams,setSearchParams]=useSearchParams()
 
   useEffect(() => {
     getdata();
@@ -197,13 +198,13 @@ export const HairProduct = () => {
                 onClick={(event) => {
                   let arr=[]
                   arr.push(e)
-                  localStorage.setItem("hemant", JSON.stringify(arr));
+                  localStorage.setItem("srk", JSON.stringify(arr));
                 }}
               >
                 
                 <ProductCard Product={product}>
                   <div id="imgDiv">
-                  <Link to={`/productdetail`}>
+                  <Link to="productdetail">
                     <img src={e.image_url} id="productimg1" />
                     <img src={e.image2_url} id="productimg2" />
                     </Link>

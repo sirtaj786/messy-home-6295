@@ -28,8 +28,8 @@ function App() {
      <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/login" element={<Login />}/>
-        {/* <Route path="/otp" element={<OTP />}></Route>
-        <Route path="/signup" element={<Signup />}/> */}
+        <Route path="/otp" element={<OTP />}></Route>
+        <Route path="/signup" element={<Signup />}/>
 
         <Route path="/hairproduct" element={<HairProduct />}/>
         <Route path="/mackupproduct" element={<MackupProduct />}/>

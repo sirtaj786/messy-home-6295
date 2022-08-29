@@ -12,7 +12,7 @@ import { Footer } from "../Footer/Footer";
 import { Slider3 } from "../Home/Slider3";
 
 export const ProductDetails = () => {
-  const details = JSON.parse(localStorage.getItem("hemant")) || [];
+  const details = JSON.parse(localStorage.getItem("srk")) || [];
 
 
   const data = [
@@ -24,12 +24,12 @@ export const ProductDetails = () => {
     },
   ];
 
-  const viraj = JSON.parse(localStorage.getItem("sai")) || [];
+  const viraj = JSON.parse(localStorage.getItem("srk")) || [];
   const handleStorage = () => {
     alert('added in cart')
 
     viraj.push(details[0]);
-    localStorage.setItem("sai", JSON.stringify(viraj));
+    localStorage.setItem("srk", JSON.stringify(viraj));
   };
 
   return (

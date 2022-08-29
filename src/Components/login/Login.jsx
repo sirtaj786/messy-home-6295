@@ -52,7 +52,7 @@ export const Login = () => {
     localStorage.setItem("user", JSON.stringify(response.name));
 
     // localStorage.setItem("user", JSON.stringify(response.name));
-    navigate("/");
+    navigate("/home");
   };
   useEffect(() => {
     // console.log("useState", user);

@@ -4,6 +4,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FiSearch, FiHeart } from "react-icons/fi";
 import { RiContactsLine } from "react-icons/ri";
 import { useState } from "react";
+import { SimpleGrid } from "@chakra-ui/react";
 
 export const Nav = () => {
   const z = JSON.parse(localStorage.getItem("user"));
@@ -15,7 +16,9 @@ export const Nav = () => {
   };
   return (
     <>
-      <div className="NavbarContainer-1">
+      {/* <div className="mainnav"> */}
+    <div className="NavbarContainer-1">
+      
         <div className="Navbar-11">
           <div className="Navbar-12">
             <div className="Searchlogo">
@@ -54,9 +57,9 @@ export const Nav = () => {
               <div>{z === null ? "" :z } </div>
               <div>{z===null ? "":<button onClick={handleName}>Logout</button>}</div>
             </div>
-            
           </div>
         </div>
+           
       </div>
       <div className="NavbarContainer-2">
         <div className="header--left">
@@ -595,6 +598,7 @@ export const Nav = () => {
         </div>
         <div className="line"></div>
       </div>
+      {/* </div> */}
       {/* ///////////////////////////////// */}
     </>
   );

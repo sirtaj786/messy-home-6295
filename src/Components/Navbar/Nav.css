@@ -1,6 +1,16 @@
-.NavbarContainer-2{
-   
+.NavbarContainer-2 {
+   position: sticky;
+   z-index: 99;
+   top: 0;
+   background-color: white;
 }
+/* .mainnav{
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+} */
 .Navbar-11{
     display: flex;
     justify-content: space-evenly;
@@ -39,7 +49,7 @@ display: flex;
    }
 
     .Navbar-15{
-        font-size: 35px;
+        font-size: 2rem;
         letter-spacing: 8px;
         font-weight: 500;
     }
@@ -206,3 +216,12 @@ display: flex;
     display: flex;
     align-items: center;
 }
+@media screen and (max-width: 992px) {
+   
+    
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+   
+  }

@@ -50,7 +50,7 @@ const Navbar = () => {
                 />
               </Box>
             </Center>
-            <Center marginRight={"180px"}>
+            <Center marginRight={"1rem"}>
               <Text>
                 <FontAwesomeIcon icon={faLocationArrow} />
                 STORE LOCATOR
@@ -84,6 +84,7 @@ const Navbar = () => {
         </Box>
         
       </SimpleGrid>
+      
       <Nav/>
       {/* <Carasoule/> */}
     </>

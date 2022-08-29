@@ -216,3 +216,12 @@ display: flex;
     display: flex;
     align-items: center;
 }
+@media screen and (max-width: 992px) {
+   
+    
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+   
+  }

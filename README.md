@@ -12,7 +12,8 @@ My task was to make a functional clone of the SEPHORA website. operate over 2,70
 <p>4)Reactjs</p>
 
 <h2>Some screenshots of website:</h2>
-<img src="https://user-images.githubusercontent.com/101570740/190070696-944f2709-841d-46bb-9f93-f04ac28ed5e1.png"/>
+<img src="https://user-images.githubusercontent.com/101570740/190072337-cff04427-5dcd-495c-8fb5-142536a7b981.png"/>
 
 
 <img src="https://user-images.githubusercontent.com/101570740/190071586-7332b703-5ddd-4fa0-8bfe-4c063865a498.png"/>
+

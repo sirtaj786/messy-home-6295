@@ -15,3 +15,4 @@ My task was to make a functional clone of the SEPHORA website. operate over 2,70
 <img src="https://user-images.githubusercontent.com/101570740/190070696-944f2709-841d-46bb-9f93-f04ac28ed5e1.png"/>
 
 
+<img src="https://user-images.githubusercontent.com/101570740/190071586-7332b703-5ddd-4fa0-8bfe-4c063865a498.png"/>

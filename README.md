@@ -17,3 +17,5 @@ My task was to make a functional clone of the SEPHORA website. operate over 2,70
 
 <img src="https://user-images.githubusercontent.com/101570740/190071586-7332b703-5ddd-4fa0-8bfe-4c063865a498.png"/>
 
+<h2>Live Link</h2>
+https://messy-home-6295.vercel.app/

@@ -34,7 +34,7 @@ export const Login = () => {
   const navigate = useNavigate();
 
   const responseSuccessGoogle = (response) => {
-    // console.log(response.profileObj.name);
+   
     localStorage.setItem("user", JSON.stringify(response.profileObj.name));
     navigate("/");
   };
@@ -99,32 +99,7 @@ export const Login = () => {
           <br></br>
           <br></br>
         </form>
-        <p>-------- OR --------</p>
-        <br></br>
-        <p style={{ backgroundColor: "rgb(66,133,244)",margin:"auto", width:"77.5%", }}
->
-  <GoogleLogin 
-                  
-          clientId="783084545362-nbv5flob7ak19200jqvmr33fb3og95ri.apps.googleusercontent.com"
-          buttonText="Login with Google"
-          onSuccess={responseSuccessGoogle}
-          onFailure={responseErrorGoogle}
-          expectcssClass="google-button"
-          cookiePolicy={"single_host_origin"}
-        /></p>
-        <br></br>
-        <FacebookLogin
-          appId="397198822046839"
-          autoLoad={false}
-          fields="name,email,picture"
-          onClick={componentClicked}
-          callback={responseFacebook}
-          expectcssClass="facebook-button"
-          icon="fa-facebook"
-          textButton="Login with Facebook"
-          height="100px"
-          style={{ backgroundColor: "rgb(25,118,210)" }}
-        />
+        
         <p>By proceeding, you agree to Privacy Policy, <span style={{ color: "rgb(255,51,153)" }} >Terms & Conditions</span></p>
     </div>
       </div>

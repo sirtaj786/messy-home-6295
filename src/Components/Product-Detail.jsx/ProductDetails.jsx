@@ -24,12 +24,14 @@ export const ProductDetails = () => {
     },
   ];
 
-  const viraj = JSON.parse(localStorage.getItem("srk")) || [];
+  const viraj = JSON.parse(localStorage.getItem("msk")) || [];
+  // console.log(viraj)
   const handleStorage = () => {
     alert('added in cart')
 
+    console.log("details",details)
     viraj.push(details[0]);
-    localStorage.setItem("srk", JSON.stringify(viraj));
+    localStorage.setItem("msk", JSON.stringify(viraj));
   };
 
   return (

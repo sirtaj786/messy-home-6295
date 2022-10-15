@@ -30,15 +30,17 @@ export const Signup = () => {
       } else if (form.Email === userList[i].Email) {
         alert(`Email already exist`);
         return;
-      } else if (form.Num === userList[i].Num) {
-        alert(`mobile number already exist`);
-        return;
       }
+      //  else if (form.Num === userList[i].Num) {
+      //   alert(`mobile number already exist`);
+      //   return;
+      // }
     }
     userList.push(form);
     localStorage.setItem("allusers", JSON.stringify(userList));
     alert("signup successfull");
-    navigate("/home");
+    navigate("/");
+    window.location.reload()
   };
 
   return (

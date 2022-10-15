@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { PricingTable } from "./pricingTable";
 // import { AddForm } from "../AddressFrom/AddForm";
 import "./pricingTable.css";
+import { AddForm } from "../AddressForm/AddForm";
 // import { Button } from "../checkoutpage/Button";
 export const Payment = () => {
   const [cart, setCart] = useState([]);
@@ -208,7 +209,7 @@ export const Payment = () => {
           </div>
         </div>
       </div>
-      {/* {z.length==0 ? <AddForm setShowForm={setShowForm} /> : null} */}
+      {z.length==0 ? <AddForm setShowForm={setShowForm} /> : null}
     </>
   );
 };

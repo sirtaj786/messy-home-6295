@@ -1,5 +1,5 @@
 import "./Nav.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FiSearch, FiHeart } from "react-icons/fi";
 import { RiContactsLine } from "react-icons/ri";
@@ -7,13 +7,33 @@ import { useState } from "react";
 import { SimpleGrid } from "@chakra-ui/react";
 
 export const Nav = () => {
-  const z = JSON.parse(localStorage.getItem("user"));
+  const navigate= useNavigate()
+  const [refreser,setRefreser]=useState(false)
+  const z = JSON.parse(localStorage.getItem("user"))||"Login";
   const handleName = () => {
-    //  localStorage.clear();
+    
     localStorage.removeItem("user");
-    //  console.log('HI VIRAJ')
-    window.location.reload();
+   
+    // window.location.reload();
   };
+
+  const handleCart = ()=>{
+
+    if(z=="Login"){
+     alert("you are not logged in please login")
+     navigate('/login')
+     return
+    }
+   navigate('/checkoutpage')
+ }
+
+ const logouter = ()=>{
+  localStorage.removeItem("user");
+  localStorage.removeItem("sephoraAddress")
+  localStorage.removeItem("srk")
+
+  setRefreser(!refreser)
+}
   return (
     <>
       {/* <div className="mainnav"> */}
@@ -40,22 +60,29 @@ export const Nav = () => {
                 <FiHeart />
               </li>
               <li>|</li>
-                <li>
-              <Link to="/checkoutpage">
+              <li className="hellohover" onClick={()=>handleCart()} style={{cursor: "pointer"}}>
                   <HiOutlineShoppingBag />
-              </Link>
+              
                 </li>
               <li>|</li>
-              <Link to="/login">
-                <span id="adjustment1">
-                  <li>
-                    <RiContactsLine />
-                  </li>
-                  <li style={{marginLeft:"5px"}}>{z === null ? "Login" : " "}</li>
-                </span>
-              </Link>
-              <div>{z === null ? "" :z } </div>
-              <div>{z===null ? "":<button onClick={handleName}>Logout</button>}</div>
+              
+              {z=="Login" ?
+              <Link to={`/login`}>
+              <span id="adjustment1">
+                <li  className="hellohover">
+                  <RiContactsLine />
+                </li>
+              </span>
+            </Link>:null}
+            <div className="hellohover" style={z!=="Login" ? { color:"rgb(255,51,153)",cursor: "pointer"}:{color:"black"}}> 
+              {z} 
+              </div>
+              {z!=="Login" ? <p className="hellohover" onClick={()=>logouter()} style={{color:"rgb(255,51,153)",cursor: "pointer"}}>Logout</p>:null}
+
+              {/* <div>{z } </div> */}
+                  {/* <li style={{marginLeft:"5px"}}>{z === null ? "Login" : <button onClick={handleName}>Logout</button>}</li> */}
+              {/* <div>{z === null?" ":<button onClick={handleName}>Logout</button>}</div> */}
+              
             </div>
           </div>
         </div>

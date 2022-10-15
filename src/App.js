@@ -15,6 +15,7 @@ import { CheckoutPage } from './Components/checkout/CheckoutPage';
 import { Payment } from './Components/paymentDet/PaymentPage';
 import { ProductDetails } from './Components/Product-Detail.jsx/ProductDetails';
 import { OTP } from './Components/login/Otp';
+import { HeadBar } from './Components/head/HeadBar';
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
         <Route path="/payment" element={<Payment />}/>
       </Routes>
      
+
+      {/* <HeadBar/> */}
     </div>
   );
 }

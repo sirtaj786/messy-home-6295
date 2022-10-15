@@ -15,7 +15,7 @@ export const Shipping = ({setCurrState}) =>{
 
     //price updation function(updated)
     const priceUpdate = ()=>{
-        const cartItems = JSON.parse(localStorage.getItem("sai"))||[]
+        const cartItems = JSON.parse(localStorage.getItem("srk"))||[]
         setCart(cartItems)
         let total = 0;
         cartItems.forEach(ele=>{
@@ -37,7 +37,7 @@ export const Shipping = ({setCurrState}) =>{
 
         const remainingItems = cart.filter((item)=> item._id !== _id) 
         setCart(remainingItems)
-        localStorage.setItem("sai",JSON.stringify(remainingItems))
+        localStorage.setItem("srk",JSON.stringify(remainingItems))
         priceUpdate()    
  
      }

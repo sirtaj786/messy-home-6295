@@ -1,10 +1,10 @@
 import React from 'react'
 import { Button } from "./Button"
 import styled from "styled-components"
+import { HeadBar } from '../head/HeadBar'
 import "./checkoutStyles.css"
 import {Shipping} from '../paymentDet/ShippingPage'
 import {Payment} from '../paymentDet/PaymentPage'
-import { HeadBar } from '../head/HeadBar'
 
 export const CheckoutPage = ()=>{
     const [currState, setCurrState] = React.useState("shipping");
@@ -21,7 +21,7 @@ export const CheckoutPage = ()=>{
             </div>
             {/* updated */}
             {currState === "shipping"? <Shipping setCurrState={setCurrState}/> : <Payment/>}
-            hiiiii
+           
         </div>
         </>
     

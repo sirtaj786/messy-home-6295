@@ -1,5 +1,5 @@
 import React from 'react'
-import {UserIcon,HeartIcon,CubeIcon,LogoutIcon, ZoomOutIcon} from "@heroicons/react/outline"
+// import {UserIcon,HeartIcon,CubeIcon,LogoutIcon, ZoomOutIcon} from "@heroicons/react/outline"
 import {useEffect, useState } from "react";
 import styled from "styled-components";
 import styles from "./Head.css";
@@ -21,9 +21,9 @@ export const HeadBar = () => {
     navigate("/")
   }
   
-  const handleToggle = () => {
-    setToggle(false);
-  };
+  // const handleToggle = () => {
+  //   setToggle(false);
+  // };
   return (
     <div className="head_wrapper">
       <div className="co_head">
@@ -36,17 +36,17 @@ export const HeadBar = () => {
           <p>{userName}</p>
           <div className="user_opt">
             <Option>
-             <span><UserIcon className="icons" style = {{color : "rgb(43,162,228)", fontweight : "bold"}}/> My Account </span>
+             <span> My Account </span>
             </Option>
             <Option>
-             <span><HeartIcon className="icons" style = {{color : "rgb(255,51,153)", fontweight : "bold"}}/> Favorites </span>
+             <span> Favorites </span>
             </Option>
             <Option>
-             <span><CubeIcon className="icons" style = {{color : "rgb(86,212,0)", fontweight : "bold"}}/> My Orders </span>
+             <span> My Orders </span>
             </Option>
             <hr style = {{width:"80%", margin : "auto", marginTop :"8px"}}/>
             <Option>
-             <span><LogoutIcon className="icons" onClick={()=>logouter()} style = {{color : "rgb(255,51,153)", fontweight : "bold"}}/> Sign Out </span>
+             <span>Sign Out </span>
             </Option>
           
           </div>
